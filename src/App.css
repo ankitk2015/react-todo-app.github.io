@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background:linear-gradient(150deg,#f6dd6fcb 10%,#d6868120 80%);
+}
+.App {
+  text-align: center;
+}
+header h1{
+  font-family: cursive;
+  text-shadow: 2px 2px 6px #000;
+  background: #f6dd6fcb;
+  color: whitesmoke;
+  text-align: center;
+}
+.container{
+  background: whitesmoke;
+  box-shadow: 10px 10px 8px #888888;
+  min-height: 500px;
+  position: relative;
+  width: 800px;
+  padding: 10px;
+  margin:3rem auto;
+}
+.add-task{
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+.add-task input{
+  width: 80%;
+  padding: 0 20px;
+ 
+  text-transform: capitalize;
+  border-bottom:3px solid #666;
+  background:none;
+  padding: 10px;
+  font-size: 23px;
+  outline: none;
+}
+.btn-cust{
+  width: 10rem;
+  background: #666;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #000;
+  border:none;
+  cursor: pointer;
+  outline: none;
+}
+.icons:hover{
+  cursor: pointer;
+}
